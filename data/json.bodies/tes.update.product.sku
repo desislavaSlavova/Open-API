@@ -1,0 +1,122 @@
+{
+  "product": {
+    "baseSku": "KP000001",
+    "title": {
+      "value": "MiniToasterOven"
+    },
+    "descriptions": {
+      "value": "This ultra-compact oven has eight
+      preset functions to simplify everything from makng toast and broiling
+      open-faced sandwiches to heating an 11\" pizza. \"Smart\" internalsensor
+      technology automatically adjusts heat and calculates cooking
+      times.",
+      "es_ES": "Este horno ultracompacta cuenta con
+      ocho funciones predefinidas para simplificar todo, desde makng pan
+      tostado y asado sándwiches de cara abierta para calentar un 11 \"
+      pizza.\" Smart\" tecnología interna-sensor ajusta automáticamente el
+      calory calcula los tiempos de cocción."
+    },
+    "images": [
+      "http: //intl.rakuten-static.com/t/72528e30-f4e4-11e2-
+      9282-005056bd2f2c/20130814/e3e2a117-2492-4cc1-a11f-dd34d4dc0bff.jpg",
+      "http: //intl.rakuten-static.com/t/72528e30-f4e4-11e2-
+      9282-005056bd2f2c/20130930/e3e2a117-2492-4cc1-a11f-2534d4dc0112.jpg"
+    ],
+    "tagline": {
+      "value": "MiniToasterOven"
+    },
+    "brand": "KitchenPlus",
+    "variantAttributeNames": [
+      {
+        "value": "Color"
+      },
+      {
+        "value": "Style"
+      }
+    ],
+    "variants": [
+      {
+        "sku": "KP000001",
+        "globalTradeItems": [
+          {
+            "globalTradeItemType": "UPC",
+            "globalTradeItemNumber": "122233211234"
+          }
+        ],
+        "attributeValues": [
+          {
+            "value": "Red"
+          },
+          {
+            "value": "Modern"
+          }
+        ],
+        "shippingPackage": {
+          "length": 120,
+          "width": 60,
+          "height": 50,
+          "weight": 20
+        },
+        "variantListedShops": [
+          {
+            "marketplaceIdentifier": "es",
+            "shopURL": "shop-aaa",
+            "price": "100",
+            "listedPrice": "120",
+            "inventory": {
+              "limitPurchaseQuantity": 5,
+              "quantity": 100,
+              "returnProductsToInventoryOnCanceledOrders": "true"
+            }
+          }
+        ]
+      },
+      {
+        "sku": "KP000002",
+        "variantListedShops": [
+          {
+            "marketplaceIdentifier": "es",
+            "globalTradeItems": [
+              {
+                "globalTradeItemType": "UPC",
+                "globalTradeItemNumber":
+                "122233211237"
+              }
+            ],
+            "attributeValues": [
+              {
+                "value": "Green"
+              },
+              {
+                "value": "Modern"
+              }
+            ],
+            "shopURL": "shop-aaa",
+            "price": "95",
+            "listedPrice": "120",
+            "inventory": {
+              "limitPurchaseQuantity": 3,
+              "quantity": 110,
+              "returnProductsToInventoryOnCanceledOrders": "true"
+            }
+          }
+        ]
+      }
+    ],
+    "videoURL": "http: //www.youtube.com/watch?v=YmXtrQPlg7M",
+    "rakutenCategoryId": "10000011",
+    "productListedShops": [
+      {
+        "marketplaceIdentifier": "es",
+        "shopURL": "shop-aaa",
+        "marketplaceRakutenCategoryId": 100011,
+        "displayStartDate": "2014-01-10T00: 00: 00.000Z",
+        "freeShipping": "false",
+        "shopCategoryIds": [
+          "11111",
+          "22222",
+          "33333"
+        ]
+      }
+      ]
+    }

@@ -1,0 +1,57 @@
+{
+  "post": {
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "baseSku": "string",
+    "title": {
+      "value" : "string"
+    },
+    "description": {
+      "value" : "string"
+    },
+    "images": "string[]",
+    "tagline": {
+      "value" : "string"
+    },
+    "brand": "string",
+    "variantAttributeNames": {
+      "value" : "string"
+    },
+    "variants": {
+      "sku" : "string",
+      "globalTradeItems" : {
+        "globalTradeItemType" : "string",
+        "globalTradeItemNumber" : "string"
+      },
+      "attributeValues" : "MultiLang[]",
+      "shippingPackage" : {
+        "length" : "string",
+        "width" : "string",
+        "height" : "string",
+        "weight" : "string"
+      },
+      "imageUrls" : "string[]",
+      "variantListedShops" : {
+        "marketplaceIdentifier" : "string",
+        "shopURL" : "string",
+        "price" : "string",
+        "listedPrice" : "string",
+        "inventory" : {
+          "quantity" : "int",
+          "returnProductsToInventoryOnCanceledOrders" : "boolean",
+          "limitPurchaseQuantity" : "int"
+        }
+      }
+    },
+    "videoURL": "string",
+    "rakutenCategoryId": "string",
+    "productListedShops" : {
+      "marketplaceIdentifier" : "string",
+      "shopURL" : "string",
+      "marketplaceRakutenCategoryId" : "integer",
+      "displayStartDate" : "string",
+      "freeShipping" : "boolean",
+      "shopCategoryIds" : "string[]"
+    }
+
+}
+}
