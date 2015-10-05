@@ -19,12 +19,11 @@ class Configurations {
     "https://" + hostname
   }
   def getHttpConf: HttpProtocolBuilder = {
-    // fix for weird bug found when using load balancer and https
-    // in TP production env
+
     if (environment == "production") {
       http.baseURL(httpsUrl).shareConnections
     }  else {
-      //            http.baseURL(httpUrl).disableResponseChunksDiscarding
+
       http.baseURL(httpsUrl)
     }
   }
